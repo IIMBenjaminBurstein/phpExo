@@ -1,0 +1,63 @@
+*{
+    margin: auto 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 100%;
+}
+header h2{
+
+    font-size: 30px;
+    color: #2b9179 !important;
+
+}
+header a{
+    text-decoration: none;
+    color: #2b9179;
+    width: 100%;
+    margin-left: 700px;
+
+}
+
+main{
+    margin-top: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+main h1{
+    margin: auto;
+    color: red;
+}
+main table{
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+       
+}
+tr{
+    display: flex;
+    justify-content: space-around;
+}
+td{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.chelou{
+    margin-right: 30px;
+}
+.gris{
+    background-color:#bcbeb6;
+}
+.blanc{
+    background-color: #dfe4db;
+}
+.rouge{
+    color: red;
+}
